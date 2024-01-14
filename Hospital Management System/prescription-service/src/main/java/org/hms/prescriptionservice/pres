@@ -1,0 +1,11 @@
+6.	Prescription: MongoDb
+Prescription_tb (Table)
+•	prescriptionID (Primary Key)
+•	doctorID (Foreign Key to Staff Table - Doctor)
+•	patientID (Foreign Key to Patient Table)
+•	prescriptiondate
+•	medications{medicine name, dosage, duration}
+•	chiefcomplaints
+•	clinicalfindings
+•	patient physical details{Weight, BMI, Height,BP,Pulse}
+•	Instruction

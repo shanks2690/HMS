@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/DTO/pom.xml" />
+        <option value="$PROJECT_DIR$/Doctor/pom.xml" />
+        <option value="$PROJECT_DIR$/sampledto/pom.xml" />
+        <option value="$PROJECT_DIR$/EmailService/pom.xml" />
+        <option value="$PROJECT_DIR$/appointment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaDiscoveryServer/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Security-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/Guard/pom.xml" />
+        <option value="$PROJECT_DIR$/Email Service/pom.xml" />
+        <option value="$PROJECT_DIR$/admin-service/pom.xml" />
+        <option value="$PROJECT_DIR$/doctor-microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/mailing-service/pom.xml" />
+        <option value="$PROJECT_DIR$/patient-microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/receptionist-microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/prescription-service/pom.xml" />
+        <option value="$PROJECT_DIR$/room/pom.xml" />
+        <option value="$PROJECT_DIR$/pharmacist/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/billing/pom.xml" />
+      </list>
+    </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

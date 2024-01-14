@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="doctor-microservice" />
+        <module name="appointment-service" />
+        <module name="pharmacist" />
+        <module name="room" />
+        <module name="EurekaDiscoveryServer" />
+        <module name="patient-microservice" />
+        <module name="billing" />
+        <module name="mailing-service" />
+        <module name="config-server" />
+        <module name="prescription-service" />
+        <module name="receptionist-microservice" />
+        <module name="api-gateway" />
+        <module name="Guard" />
+        <module name="admin-service" />
+        <module name="roomType" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Doctor" target="21" />
+      <module name="DTO" target="1.8" />
+      <module name="EmailService" target="21" />
+      <module name="sampledto" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Doctor" options="-parameters" />
+      <module name="EmailService" options="-parameters" />
+      <module name="EurekaDiscoveryServer" options="-parameters" />
+      <module name="Guard" options="-parameters" />
+      <module name="admin-service" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="appointment-service" options="-parameters" />
+      <module name="billing" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="doctor-microservice" options="-parameters" />
+      <module name="mailing-service" options="-parameters" />
+      <module name="patient-microservice" options="-parameters" />
+      <module name="pharmacist" options="-parameters" />
+      <module name="prescription-service" options="-parameters" />
+      <module name="receptionist-microservice" options="-parameters" />
+      <module name="room" options="-parameters" />
+      <module name="roomType" options="-parameters" />
+    </option>
+  </component>
+</project>

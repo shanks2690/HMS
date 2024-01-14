@@ -1,0 +1,95 @@
+server:
+    port: 9191
+
+spring:
+  application:
+    name: API-GATEWAY
+
+#config server client properties
+  config:
+    import: optional:configserver:http://localhost:8000/
+
+#  API gateway properties
+  cloud:
+    gateway:
+      routes:
+        - id: DOCTOR
+          uri: lb://DOCTOR
+          predicates:
+            - Path=/doc/**
+          filters:
+            - AuthenticationFilter
+
+        - id: MAILING-SERVICE
+          uri: lb://MAILING-SERVICE
+          predicates:
+            - Path=/mail/**
+          filters:
+            - AuthenticationFilter
+
+        - id: APPOINTMENT
+          uri: lb://APPOINTMENT
+          predicates:
+            - Path=/apnt/**
+          filters:
+            - AuthenticationFilter
+
+
+        - id: ADMIN
+          uri: lb://ADMIN
+          predicates:
+            - Path=/admin/**
+          filters:
+            - AuthenticationFilter
+
+        - id: PATIENT
+          uri: lb://PATIENT
+          predicates:
+            - Path=/pat/**
+          filters:
+            - AuthenticationFilter
+
+        - id: RECEPTIONIST
+          uri: lb://RECEPTIONIST
+          predicates:
+            - Path=/rec/**
+          filters:
+            - AuthenticationFilter
+
+        - id: PRESCRIPTION
+          uri: lb://PRESCRIPTION
+          predicates:
+            - Path=/prsc/**
+          filters:
+            - AuthenticationFilter
+
+        - id: ROOM
+          uri: lb://ROOM
+          predicates:
+            - Path=/room/**
+          filters:
+            - AuthenticationFilter
+
+        - id: PHARMACIST
+          uri: lb://PHARMACIST
+          predicates:
+            - Path=/room/**
+          filters:
+            - AuthenticationFilter
+
+        - id: BILLING
+          uri: lb://BILLING
+          predicates:
+            - Path=/bill/**
+          filters:
+            - AuthenticationFilter
+        - id: GUARD
+          uri: lb://GUARD
+          predicates:
+            - Path=/guard/**
+
+
+
+
+
+

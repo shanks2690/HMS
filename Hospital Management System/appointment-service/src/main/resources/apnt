@@ -1,0 +1,11 @@
+5. Appointment (MySql)
+(a) appointment_tb
+•	AppointmentID (Primary Key)
+•	PatientID (Foreign Key to Patient Table)
+•	DepartmentCode
+•	DoctorID (Foreign Key to Staff Table - Doctor)
+•	SlotID
+•	Request (Approved/UnApproved)
+•	IsEmergency (Boolean)
+•	emailstatus<boolean>
+•	smsstatus<boolean>
